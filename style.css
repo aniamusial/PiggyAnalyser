@@ -37,13 +37,20 @@ h1 {
 .column_wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 20% 0;
+    margin: 5% auto;
 }
 
 .column p {
    font-size: 1.1em;
    padding: 0.5em;
    max-width: 75%;
+}
+
+.column .flaticon-startup::before, .column .flaticon-flask::before, .column .flaticon-writing::before {
+    font-size: 2.4em;
+    color: var(--piggyTurquoise);
+    padding: 10%;
+    margin: 0 auto;
 }
 
 
